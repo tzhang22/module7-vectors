@@ -7,7 +7,7 @@ x <- 10:20
 y <- seq(21, 30)
 
 # Create a vector `z` by combining the vectors `x` and `y`
-z <- x + y
+z <- c(x, y)
 
 # Create a variable `w` that contains the 11th element in your vector `z`
 w <- z[11]
